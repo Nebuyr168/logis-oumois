@@ -1,0 +1,20 @@
+LES LOGIS DE L'OUMOIS — Maquette de refonte (site vitrine)
+============================================================
+
+LIEN DU SITE (à coller dans le mail au client) :
+https://nebuyr168.github.io/logis-oumois/
+
+Dépôt GitHub (compte Nebuyr168) :
+https://github.com/Nebuyr168/logis-oumois
+
+------------------------------------------------------------
+- Accueil avec sélecteur de 3 styles (01 Essentiel · 02 Signature · 03 Prestige) + onglet Tarifs.
+- 15 pages secondaires, navigation réelle, le style choisi suit de page en page.
+- Responsive mobile.
+- Photos d'ambiance temporaires (badge « À modifier ») en attendant les vraies photos du client.
+- Contacts du site = ceux du camping ; onglet Tarifs = nos coordonnées (hetechcholet@gmail.com / 06 99 44 36 39).
+
+Mise en ligne le 18/06/2026.
+Pour mettre à jour le site : modifier les fichiers dans D:\Camping_Logis_Oumois\ puis
+  git add -A && git commit -m "maj" && git push
+(penser à incrémenter ?v=1 -> ?v=2 sur les assets si on modifie le CSS/JS, pour casser le cache).
