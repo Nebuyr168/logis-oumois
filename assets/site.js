@@ -1,11 +1,11 @@
 /* =======================================================================
-   LES LOGIS DE L'OUMOIS — script partagé (accueil + pages secondaires)
+   CAMPING DU LAC — script partagé (accueil + pages secondaires)
    - Bascule de style via le sélecteur (#01/#02/#03 + Tarifs sur l'accueil)
    - Mémorise le style choisi (localStorage) et le conserve de page en page
    - Injecte le badge « À modifier » sur les images d'ambiance (placeholders)
    ======================================================================= */
 (function () {
-  var KEY = 'oumois_style';
+  var KEY = 'camping_style';
   var STYLES = ['v-ess', 'v-sig', 'v-pre'];
 
   function views() { return Array.prototype.slice.call(document.querySelectorAll('.view')); }
